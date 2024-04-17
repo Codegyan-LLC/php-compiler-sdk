@@ -14,8 +14,8 @@ class Client {
     public function compilePHPCode($code) {
         $url = 'https://api.codegyan.in/v1/compiler/compile';
         $headers = [
-            'api_key: ' . $this->apiKey,
-            'client_id: ' . $this->clientId,
+            'APIKey: ' . $this->apiKey,
+            'ClientID: ' . $this->clientId,
             'Content-Type: application/json'
         ];
         $data = [
