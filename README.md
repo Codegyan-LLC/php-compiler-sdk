@@ -18,7 +18,7 @@ composer require codegyan/php-compiler-sdk
 ```
 
 ## Usages
-Before using the SDK, you need to obtain an API key and client ID from CodeGyan. Follow these steps to get your API credentials:
+Before using the SDK, you need to obtain an API key and client ID from Codegyan. Follow these steps to get your API credentials:
 
 1. **Sign Up/Login**: If you don't have an account, sign up for a [Codegyan account](https://www.codegyan.in/). If you already have an account, log in to your dashboard.
 
