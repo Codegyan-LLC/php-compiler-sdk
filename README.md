@@ -13,7 +13,7 @@ This SDK provides a convenient way to interact with the Codegyan PHP Compiler AP
 You can install the SDK via [Composer](https://getcomposer.org/). Run the following command:
 
 ```bash
-composer require thecodegyan/php-compiler-sdk
+composer require codegyan/php-compiler-sdk
 ```
 
 ## Usages
