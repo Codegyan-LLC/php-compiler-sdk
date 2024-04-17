@@ -46,7 +46,13 @@ $code = '<?php echo "Hello, world!"; ?>';
 try {
     // Compile PHP code
     $compiledCode = $compiler->compilePHPCode($code);
-    echo "Compiled code: " . $compiledCode;
+
+    // Check if the compiled code is equal to 15
+    if ($compiledCode === 15) {
+        echo "Compiled code: " . $compiledCode;
+    } else {
+        echo $compiledCode;
+    }
 } catch (Exception $e) {
     echo 'Error: ' . $e->getMessage();
 }
