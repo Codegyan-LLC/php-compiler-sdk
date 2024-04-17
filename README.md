@@ -70,7 +70,7 @@ try {
 - Error Handling: Proper error handling is implemented to catch and handle exceptions thrown during API requests.
 - Customization: You can customize the SDK by passing different parameters to the constructor or by modifying the code to fit your specific requirements.
 
-##Testing
+## Testing
 
 The SDK includes PHPUnit tests to ensure its functionality is working as expected. You can run the tests using the following command:
 
