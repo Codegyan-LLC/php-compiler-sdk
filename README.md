@@ -47,11 +47,14 @@ try {
     // Compile PHP code
     $compiledCode = $compiler->compilePHPCode($code);
 
-    // Check if the compiled code is equal to 15
-    if ($compiledCode === 15) {
-        echo "Compiled code: " . $compiledCode;
+    // Decode the JSON string to an associative array
+    $compiledData = json_decode($compiledCode, true);
+
+    // Check if the compiled code status is equal to 15
+    if ($compiledData['status'] == 15) {
+        echo "Compiled code: " . $compiledData['output'];
     } else {
-        echo $compiledCode;
+       echo $compiledCode;
     }
 } catch (Exception $e) {
     echo 'Error: ' . $e->getMessage();
