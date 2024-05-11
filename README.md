@@ -1,6 +1,5 @@
 # Codegyan PHP Compiler SDK
 
-<a href="https://github.com/thecodegyan/php-compiler-sdk/actions"><img alt="GitHub Workflow Status (main)" src="https://img.shields.io/github/actions/workflow/status/openai-php/client/tests.yml?branch=main&label=tests&style=round-square"></a>
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt)
 [![PHP](https://img.shields.io/badge/php-%5E8.1.0-blue)](https://www.php.net/)
 [![Packagist](https://img.shields.io/packagist/v/codegyan/php-compiler-sdk)](https://packagist.org/packages/codegyan/php-compiler-sdk)
